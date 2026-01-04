@@ -1,0 +1,304 @@
+.Theme：WP0_0
+
+..Memo
+使える記号
+＠	おもに、置換文字指定で使用。
+
+⌒
+
+ヾ	主にプログラミング内で使用
+
+罫線系
+┿
+╂
+.kx
+
+..基本
+
+sys	head_no	ヘッドなし。
+sys	foot_no	エンド線。hrなし。
+sys	list_on	リスト型。
+sys	title_last	最終文字のみ
+sys	kx_edit_right	エディットを左に。（右側表示用）
+sys	floor_on	子階層排除。≫検索排除。‘200727'
+sys	new_off	新規追加をOFF。‘201027'
+
+..0x系
+1	確認用
+2	OutputIdArray用	id配列呼び出し。
+3	テキスト呼び出し系
+4	--	--
+5	wiki用（ｔｙｐｅ40）	--
+6	--	--
+7	--使用不可（上位）	--
+8	07の確認用	--
+9	エラーtypeの確認用	--
+
+..1x
+sys-10x	link_top_off	上リンクoff
+sys-10x	link_bottom_off	下リンクoff
+sys-10x	link_top_off,link_bottom_off	上下OFF	[kx t=17 id= sys="link_top_off,link_bottom_off"]
+sys-10x	edit_on	簡易エディットON
+sys-10x	edit_on_title	簡易エディットON	+	タイトル表示edit_on_title
+sys-10x	new_on	簡易新規追加ON
+sys-10x	hr_on	線追加
+sys-10x	js_id_no	ｊｓの改変なし。タブル時に使用。
+sys-10x	plot_on	plot_on。プロット用
+10	ディフォルト	10.5
+11	小型	8.5
+12	大型	10.5
+13	未設定	10.5
+14	Blockタイトル・ほぼ組み込み用。2022-01-31
+15	引き出し型	7、hr無し。
+16	内部表示用	7、hr無し。bottomlinkなし。titleENDのみ。
+17	id表示/タイトル無し
+18	id表示/タイトル無し・EDIT型
+19	id表示/タイトル無し・EDIT型+タイトル表示
+20	連続表示用
+
+..3ｘ
+sys-3x	plus30_w	30系補足	プラスシステム・作品番号
+sys-3x	30width\d	プラスの幅。
+sys-3x	no_edit	エディットなし。
+sys-3x	plus_off	plus_off
+sys-3x	plus_b_off	plus_b_off
+sys-3x	plus1_f(\d{1,})	プラスのフォント数字
+sys-3x	plus_a_bg)	プラスa背景色・特殊
+sys-3x	p_on	末尾に<p>追記
+ppp	連続型	手動入力
+30	汎用	Plus有・inline-block型
+31	標準型	Plus有・inline-block型・P＿ON
+32	標準型	Plus有・block型
+33	標準型	幅統一なし・block型。margin20
+34	段落・改行型	基本
+35	段落・改行型・--	--
+36	段落・改行型・--	--
+37	表示のみ	旧型保存
+38	表示のみ	link型
+39	表示のみ	linkなし
+sys-4x	w2_off	w2_off
+sys-4x	h2_off	アウトラインオフ。
+sys-4x	link_off	linkしない。主にhover用
+sys-5x	yomikomi	yomikomi。
+40系	hover型
+50系	引き出し型
+60系	kxx40へMemo移設。
+70系	hover型リスト
+80系	引き出し型リスト用
+	x1	リストタイトル無し
+
+..9x
+sys		--	head_no
+
+90	通常リスト
+91	更新10件型
+92	更新20件型
+93	更新30件型
+94	更新30件型+装飾なし型
+96	置換型タイトル順list。通常
+98	全文出力型
+98	エラー文字チェック用
+99	エラー出力用
+
+..AUTO系統
+category必要型
+	キャラクター番号取得型
+		c		キャラクター専用
+		w		作品用。Ygs・Ksy
+		sc		（多分？）シリーズ+Ygs+Ksy・番号なし系
+					対人関係取得
+		ctsc		対人関係取得＋Ygs or Ksy
+		cp	題名、単純プラス
+
+	来歴系
+		ww(a-d)	主に作品来歴用（起承転結分離）
+
+	対人系
+		tj	対人関係・関係先取得
+		stj	対人関係・関係先取得+Ksy or Ygs
+
+	キャラクター番号取得型B
+		cu		？？（複数取得かも？）
+
+	キャラクター番号、非取得型
+		nw
+				作品系統取得
+
+	nc	キャラクター非取得型・サークル傾向取得■
+
+サーチ型
+	sss	キャラクター用
+	ssw	作品用。Ygs・Ksy
+	4aa	主に研究用。トップカテゴリー排除
+	ddd	同一category検索
+	jjj	上位category検索
+	uuu	下位category検索
+
+
+...追加オプション
+	....orderby=
+	例：	orderby=ID
+	基本設定を上書き実行。
+
+.羅列/raretu
+t
+	無印	主にキャラ。charaに変換
+	chara	キャラクター用（来歴）
+	chara_w	二人の共通
+	chara_ww	企画の多人数
+	set	設定用
+
+Ｓｙｓ
+	wwl	通常表示型。ディフォルト（wws）。多分運用終了。2022-02-03
+	wwr	ラテ欄型
+	wws	シングル表示型。
+	save_on	これがない限り書き換えはしない。
+
+s	sys短縮形
+	1	save_on
+
+c
+	カップリング・キャラ番号
+
+csa
+	年齢差
+
+j	ソート順。変更
+
+add_search	カテゴリー下・追記SEARCH
+
+学年。機能カットはoff。2023-10-26
+
+.終了コード
+[kx t=96 search="Ksy000 kx_format" all=1 wfm_end=0"]
+【自動更新＠＠ｔ終了】
+
+.特殊置換
+＠＠ｔ
+	タイムスタンプ。
+	全角文字
+
+
+title_s
+	＠４	Β|γ|σ|δ
+
+
+.INDEX・Outline
+説明はプログラミング内に移設。2023-03-23
+
+.TEMPLATE系
+
+..作品K3
+
+t	sh	短編。ショート
+l	lg	長編。シリーズ物（不使用）
+
+
+.kx_point
+
+
+
+.new・新規・Edit
+kx_edit_right
+kx_edit_left	989用
+
+reference_off。
+..Edit
+t
+10	≫が新規ファイルにつかない。
+7x	Click表示型
+x0	ノーマル
+
+x1-3	.c作品系統追加型(∬10≫c991.c≫)
+x4-6
+x7-9	ノーマル型
+
+x(1.4.7)	ノーマル
+x(2.5.8)	+トリプル型・タイトル分離型
+..新規
+t
+10	≫が新規ファイルにつかない。
+7x	Click表示型
+x1	.c作品系統追加型(∬10≫c991.c≫)
+.キャラ
+ヒロイン	300
+
+.括弧
+..墨付き【】
+カッコつき青系
+
+..大括弧［］
+normal	【反転：270系】
+二重大括弧	【反転：210系】背景：
+
+..その他
+〔〕【青系】文字：甲括弧*/
+}
+??【青系】背景：二重甲括弧*/
+}
+《》二重山括弧（0）：赤*/
+}
+/* ..??	一重山括弧.　：黄色系+背景*/
+/* ..??	二重山括弧.　：赤系：背景：注意系*/
+
+/* ..‘’シングル引用*/
+/* ..“”ダブル引用*/
+
+.SQL
+http://192.168.1.14:4001/phpmyadmin/db_sql.php?db=wp_0
+
+更新するSQLを、サクッと実行するだけで完了します。
+
+UPDATE wp_posts SET ID=[変更後の番号] WHERE ID=[変更前の番号];
+UPDATE wp_posts SET post_parent=[変更後の番号] WHERE post_parent=[変更前の番号];
+UPDATE wp_postmeta SET post_id=[変更後の番号] WHERE post_id=[変更前の番号];
+他のプラグインを使っている場合は、一応
+
+UPDATE wp_posts SET ID=70 WHERE ID=60;
+UPDATE wp_posts SET post_parent=70 WHERE post_parent=60;
+UPDATE wp_postmeta SET post_id=70 WHERE post_id=60;
+
+UPDATE wp_posts SET ID=13 WHERE ID=52543;
+UPDATE wp_posts SET post_parent=13 WHERE post_parent=52543;
+UPDATE wp_postmeta SET post_id=13 WHERE post_id=52543;
+
+
+
+
+
+..作業・字が小さいので
+UPDATE wp_posts SET ID=10 WHERE ID=142453;
+UPDATE wp_posts SET post_parent=10 WHERE post_parent=142453;
+UPDATE wp_postmeta SET post_id=10 WHERE post_id=142453;
+
+
+.Visual CODE設定
+
+..マルチモニター
+
+ctlr ＋ shift ＋ N。‘211022'
+
+..その他
+
+
+2020/12/27。取り出し
+
+    "intelephense.phpdoc.returnVoid": false,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.environment.shortOpenTag": true,
+    "intelephense.completion.triggerParameterHints": false,
+    "intelephense.diagnostics.deprecated": false,
+    "intelephense.diagnostics.argumentCount": false,
+    "intelephense.diagnostics.typeErrors": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedClassConstants": false,
+    "intelephense.diagnostics.undefinedVariables": false,
+    "intelephense.diagnostics.undefinedSymbols": false,
+    
+..設定・  [Unicode Highlight] 
+[Unicode Highlight] で検索。2022-01-24
+全角ハイライト系。
+
+.復旧
+
+..ユーザーアカウント

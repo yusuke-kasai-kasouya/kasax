@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*	他は、php_cssへ	*/
+
+a:hover,
+.site-main a:hover,
+.__transform_s13 a:hover{
+	transform:scale(1.3);
+}
+

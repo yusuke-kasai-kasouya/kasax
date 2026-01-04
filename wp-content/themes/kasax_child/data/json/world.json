@@ -1,0 +1,108 @@
+{
+  "∬00":
+  {
+    "Marketing_Appeal_ALL"      : "NA"    ,
+    "Marketing_Appeal_Ksy"      : 267071   ,
+    "Marketing_Appeal_Olf"      : 267071   ,
+    "Marketing_Appeal_Ygs"      : 267071   ,
+    "Marketing_Valu_ALL"        : "NA"    ,
+    "Marketing_Valu_Ksy"        : 267071  ,
+    "Marketing_Valu_Olf"        : 267071  ,
+    "Marketing_Valu_Ygs"        : 267071  ,
+    "Directing_Main_ALL"        : 267071  ,
+    "Directing_World_ALL"       : 267071  ,
+    "Directing_World_ksy"       : 267071  ,
+    "Directing_World_olf"       : 267071  ,
+    "Directing_World_ygs"       : 267071  ,
+    "0Kousei_ALL"               : 267071  ,
+    "0Kousei_Ksy"               : 267071  ,
+    "0Kousei_Olf"               : 267071  ,
+    "0Kousei_Ygs"               : 267071  ,
+    "0Kousei_Visual"            : 267071  ,
+    "0Kousei_Visual_Background" : 267071  ,
+    "0Kousei_Title"             : 267071
+  },
+
+  "∬4":
+  {
+    "000": "TEST"
+  },
+
+  "∬9":
+  {
+    "000": "TEST"
+  },
+
+  "∬10" :
+  {
+    "Marketing_Appeal_ALL"      : "NA"    ,
+    "Marketing_Appeal_Ksy"      : 22193   ,
+    "Marketing_Appeal_Olf"      : 22193   ,
+    "Marketing_Appeal_Ygs"      : 36110   ,
+    "Marketing_Valu_ALL"        : "NA"    ,
+    "Marketing_Valu_Ksy"        : 107565  ,
+    "Marketing_Valu_Olf"        : 107565  ,
+    "Marketing_Valu_Ygs"        : 107563  ,
+    "Directing_Main_ALL"        : 93582   ,
+    "Directing_World_ALL"       : 145723  ,
+    "Directing_World_ksy"       : 121151  ,
+    "Directing_World_olf"       : 121151  ,
+    "Directing_World_ygs"       : 121149  ,
+    "0Kousei_ALL"               : 98335   ,
+    "0Kousei_Ksy"               : 74962   ,
+    "0Kousei_Olf"               : 74962   ,
+    "0Kousei_Ygs"               : 74965   ,
+    "0Kousei_Visual"            : 1639    ,
+    "0Kousei_Visual_Background" : 27744   ,
+    "0Kousei_Title"             : 202034
+  },
+
+  "∬13" :
+  {
+    "Marketing_Appeal_ALL"      : "NA"    ,
+    "Marketing_Appeal_Ksy"      : 265961  ,
+    "Marketing_Appeal_Olf"      : "NA"    ,
+    "Marketing_Appeal_Ygs"      : "NA"    ,
+    "Marketing_Valu_ALL"        : "NA"    ,
+    "Marketing_Valu_Ksy"        : 265963  ,
+    "Marketing_Valu_Olf"        : "NA"    ,
+    "Marketing_Valu_Ygs"        : "NA"    ,
+    "Directing_Main_ALL"        : "NA"    ,
+    "Directing_World_ALL"       : "NA"    ,
+    "Directing_World_ksy"       : "NA"    ,
+    "Directing_World_olf"       : "NA"    ,
+    "Directing_World_ygs"       : "NA"    ,
+    "0Kousei_ALL"               : "NA"    ,
+    "0Kousei_Ksy"               : "NA"    ,
+    "0Kousei_Olf"               : "NA"    ,
+    "0Kousei_Ygs"               : "NA"    ,
+    "0Kousei_Visual"            : 265998  ,
+    "0Kousei_Visual_Background" : 265996  ,
+    "0Kousei_Title"             : 265994
+  },
+
+  "∬14" :
+  {
+    "Counter_Character"         : 800     ,
+    "Marketing_Appeal_ALL"      : "NA"    ,
+    "Marketing_Appeal_Ksy"      : 277042  ,
+    "Marketing_Appeal_Olf"      : "NA"    ,
+    "Marketing_Appeal_Ygs"      : "NA"    ,
+    "Marketing_Valu_ALL"        : "NA"    ,
+    "Marketing_Valu_Ksy"        : 277043  ,
+    "Marketing_Valu_Olf"        : "NA"    ,
+    "Marketing_Valu_Ygs"        : "NA"    ,
+    "Directing_Main_ALL"        : "NA"    ,
+    "Directing_World_ALL"       : "NA"    ,
+    "Directing_World_ksy"       : "NA"    ,
+    "Directing_World_olf"       : "NA"    ,
+    "Directing_World_ygs"       : "NA"    ,
+    "0Kousei_ALL"               : "NA"    ,
+    "0Kousei_Ksy"               : "NA"    ,
+    "0Kousei_Olf"               : "NA"    ,
+    "0Kousei_Ygs"               : "NA"    ,
+    "0Kousei_Visual"            : 277052,
+    "0Kousei_Visual_Background" : 276956,
+    "0Kousei_Title"             : 277051
+  }
+}

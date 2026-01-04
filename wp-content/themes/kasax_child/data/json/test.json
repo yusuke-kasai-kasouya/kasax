@@ -1,0 +1,47 @@
+{"change_simple":[
+    {
+        "‘"               : "<span class=\"__color_red\">‘Error‘</span>",
+        "←＿"		          : "<span class=\"__kxct_triangle_left_small_red01\" style=\"display:inline-block;  margin:0 5px;\"></span>",
+        "→＿"		          : "<span class=\"__kxct_triangle_right_small_red01\" style=\"display:inline-block;  margin:0 5px;\"></span>",
+        "×＿"		          : "<span class=\"\" style=\"display:inline-block;  margin:0 8px;\">×</span>",
+
+    }
+
+]}
+
+{"res":
+  {"blogData":[
+      {
+          "id":"0001",
+          "title":"サンプル01",
+          "day":[
+              {
+                  "year":"2015",
+                  "month":"03",
+                  "_day":"31"
+              }
+          ],
+          "author":"fantmsite",
+          "tag":[
+              "ブログ"
+          ],
+          "report":"ブログ内容サンプル01"
+      },
+      {
+          "id":"0002",
+          "title":"サンプル02",
+          "day":[
+              {
+                  "year":"2015",
+                  "month":"04",
+                  "_day":"01"
+              }
+          ],
+          "author":"fantmsite",
+          "tag":[
+              "ブログ"
+          ],
+          "report":"ブログ内容サンプル02"
+      }
+  ]}
+}

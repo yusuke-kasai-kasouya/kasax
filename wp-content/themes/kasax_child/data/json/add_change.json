@@ -1,0 +1,10 @@
+{"change_str":
+	{
+		"←＿"		          : "<span class=\"__kxct_triangle_left_small_red01\" style=\"display:inline-block;  margin:0 5px;\"></span>",
+		"→＿"		          : "<span class=\"__kxct_triangle_right_small_red01\" style=\"display:inline-block;  margin:0 5px;\"></span>",
+		"↓＿"								:	"🔽",
+		"×＿"		          : "<span class=\"\" style=\"display:inline-block;  margin:0 8px;\">×</span>",
+		"⇒＿"		          : "<span class=\"\" style=\"display:inline-block;  margin:0 2px; font-weight:bold; \">⇒</span>",
+		"‘"								:	"<span class=\"__color_red\">‘Error‘</span>"
+	}
+}

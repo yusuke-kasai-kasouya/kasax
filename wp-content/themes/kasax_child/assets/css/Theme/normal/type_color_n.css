@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* ...白*/
+.__a_white a,
+.__a_white a:link,
+.__a_white a:visited,
+.__a_white{
+	color:#fff;
+}
+
+.__kxol_side a:hover {
+	background-color: hsla(180,63%,50%,1);
+}
+.__title_tikan_white{
+	background-color:white;
+
+	box-shadow:
+		2px 0px 2px hsla(0,0%,0%,0.4),
+		-2px 0px 2px hsla(0,0%,0%,0.4);
+}
+
+
+.answer.__side{
+	background-color:hsla(0,0%,0%,.1);
+}
+
+.hr_side,
+.__side_search,
+.__kx_search{
+	border-bottom: solid #ddd 	;
+}
+
+input.__search{
+	background-color: #fff;
+}
+
+
+h2{
+	border-bottom: 3px solid hsla(0,100%,50%,.15);
+}
+
+h3{
+	border-bottom: 2px solid hsla(240,100%,50%,.4);
+}
+
+h4{
+	border-right: 0px solid #fff;
+	border-bottom: 1px solid hsla(150,100%,50%,.2);
+}
+
+h5,h6{
+	border-bottom: 1px solid hsla(0,0%,50%,.2);
+}
+
+/*	青	*/
+.__a_blue a,
+.__a_blue a:link,
+.__a_blue a:visited,
+.__a_blue{
+	color:blue;
+}
+
+
+.__a_150 a,
+.__a_150 a:link,
+.__a_150 a:visited,
+.__a_150{
+	color:hsl(150,100%,33%);
+}
+
+.__a_300 a,
+.__a_300 a:link,
+.__a_300 a:visited,
+.__a_300{
+	color:hsl(300,100%,33%);
+}
+
+

@@ -1,0 +1,80 @@
+{
+  "normal"  :{
+    "regex"       : "." ,
+    "error_word"	: "ERROR" ,
+    "head"		    : "▼" ,
+    "left"		    : "▼▼▼　" ,
+    "end"			    : "▲",
+    "ma"			    : "　　"
+  },
+
+  "basu"  :{
+    "regex"       : "basu",
+    "error_word"  : "Alert Infinite loop"
+
+  },
+
+  "ppp"   :{
+    "regex"       : "ppp",
+    "error_word"	: "PPP"
+  },
+
+  "post0"  :{
+    "regex"           : "post0",
+    "error_word"	    : "Post0",
+    "css_frame"       : "_main_post0",
+    "left"		        : "▽ ",
+    "head"		        : "▽" ,
+    "end"			        : "△",
+
+    "ma"			        : "　",
+    "new_on"	        : 1
+  },
+
+	"update" :  {
+    "regex"             : "update" ,
+    "error_word"	      : "ERROR" ,
+    "css_error_color"		: "__a_gray",
+    "css_error_main"		: "",
+    "css_error_border"	: "",
+    "left"							: "【U】 " ,
+    "head"							: "【U】",
+    "end"								: "【U】",
+    "ma"								: "　"
+
+  } ,
+
+  "plus"  :{
+    "regex"             :  "plus" ,
+    "error_word"	      : "ERROR" ,
+    "css_error_color"		: "__a_darkviolet",
+    "css_error_border"	: "",
+    "css_error_main"		: "",
+    "css_title_top"			: "__xsmall" ,
+    "error_right"				: "（error / New）" ,
+    "error_right_a"			: 1 ,
+    "error_comment"			: "" ,
+    "left"							: "" ,
+    "head"							: "▼▽" ,
+    "end"								: "▲△",
+    "ma"								: ""
+  } ,
+
+  "sc_count" :{
+    "regex"             :  "sc_count" ,
+    "error_word"				: "Alert Infinite loop",
+    "css_error_color"		: "__a_red",
+    "css_error_border"	: "",
+    "css_error_main"		: "__text_center __bg_100_90_60"
+  } ,
+
+
+  "t" :{
+    "regex"             : "’t’" ,
+    "error_word"				: "Attention" ,
+    "css_error_color"		: "__a_darkviolet",
+    "css_error_border"	: "__border_blue2",
+    "css_error_main"		: "__error_main_darkviolet"
+  }
+
+}
